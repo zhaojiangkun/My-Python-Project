@@ -1,10 +1,10 @@
-'''
-删除有序数组中的重复项
-'''
 import util.InputUtils as input_util
 
 
 def remove_duplicates(nums):
+    """
+    删除有序数组中的重复项
+    """
     left = 0
     right = 1
     while right < len(nums):
