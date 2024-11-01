@@ -1,7 +1,7 @@
 '''
 删除有序数组中的重复项
 '''
-import util.InputUtils
+import util.InputUtils as input_util
 
 
 def remove_duplicates(nums):
@@ -16,7 +16,6 @@ def remove_duplicates(nums):
 
 
 if __name__ == '__main__':
-    InputUtils = util.InputUtils.InputUtils()
-    nums = InputUtils.input_to_int_list()
+    nums = input_util.input_to_int_list()
     print(remove_duplicates(nums))
     print(nums)
